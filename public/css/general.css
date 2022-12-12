@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    /* justify-content: center; */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    font-family: var(--tipografia);
+}

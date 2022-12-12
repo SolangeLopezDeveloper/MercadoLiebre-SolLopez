@@ -1,0 +1,83 @@
+.home{
+    background-color: var(--colorAmarillo);
+
+
+}
+.home__logo{
+    background-color: var(--colorAmarillo);
+    margin: 20px;
+}
+.home__header{
+
+}
+.home__header--search{
+    font-family: var(--tipografia), sans-serif;
+    font-size:12px;
+}
+.home__header--titulo{
+    font-family: var(--tipografia);
+     font-size: 12px;
+}
+.home__header__nav{
+
+}
+.home__header__nav--menuVenta{
+    padding: 20px;
+
+}
+.home__header__nav--menuLogin{
+    padding: 20px;
+
+}
+.burger__menu{
+    color: white;
+    display: inline-block;
+    width: 20px;
+    /* height: 20px; */
+    position: relative;
+    background-color: var(--colorCeleste);
+    margin-bottom: 30px;
+    margin-left: 160px;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+.home__main{
+    background-color: var(--grisClaro);
+    
+
+}
+.home__main__section{
+    align-content: center;
+}
+.home__main__section--titulares{
+    font-family: var(--tipografia);
+    font-size: 24px;
+}
+.home__main__section__article
+.home__main__section__article--precio{
+    font-size: 18px;
+}
+.home__main__section__article--descuento{
+    font-size: 16px;
+}
+.home__main__section__article--nombre{
+    font-size: 16px;
+}
+.home__footer{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration-color: black;
+    background-color: white;
+    text-align: center;
+}
+.home__footer--icon{
+    color: var(--colorCeleste);
+    size: 2em;
+ margin-bottom: 10px;
+}
+.home__icon{
+    color: var(--colorAmarillo)
+}
