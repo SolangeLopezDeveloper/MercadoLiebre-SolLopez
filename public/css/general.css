@@ -1,11 +1,10 @@
 *{
     margin: 0;
-    /* justify-content: center; */
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--tipografia), sans-serif;
     font-size: 12px;
-
+    padding: 0px 3px;
 }
 a{
     text-decoration: none;

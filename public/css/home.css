@@ -1,7 +1,5 @@
 .home{
     background-color: var(--colorAmarillo);
-
-
 }
 .home__logo{
     background-color: var(--colorAmarillo);
@@ -18,32 +16,29 @@
     font-family: var(--tipografia);
      font-size: 12px;
 }
-.home__header__nav{
-
-}
+.home__header__nav{}
 .home__header__nav--menuVenta{
-    padding: 20px;
-
+    padding: 10px;
 }
 .home__header__nav--menuLogin{
-    padding: 20px;
-
+    padding: 10px;
 }
 .burger__menu{
     color: white;
     display: inline-block;
     width: 20px;
-    /* height: 20px; */
+    height: 15px;
     position: relative;
     background-color: var(--colorCeleste);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 160px;
     border-radius: 2px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .home__main{
     background-color: var(--grisClaro);
+    text-align: center;
     
 
 }
@@ -65,6 +60,7 @@
     font-size: 16px;
 }
 .home__footer{
+    font-family: var(--tipografia);
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 4px;
