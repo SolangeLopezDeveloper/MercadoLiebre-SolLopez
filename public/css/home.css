@@ -1,12 +1,12 @@
 .home{
+}
+.home__header{
     background-color: var(--colorAmarillo);
+    padding: 10px;
 }
 .home__logo{
     background-color: var(--colorAmarillo);
     margin: 20px;
-}
-.home__header{
-
 }
 .home__header--search{
     font-family: var(--tipografia), sans-serif;
@@ -16,7 +16,9 @@
     font-family: var(--tipografia);
      font-size: 12px;
 }
-.home__header__nav{}
+.home__header__nav{
+    display: none;
+}
 .home__header__nav--menuVenta{
     padding: 10px;
 }
@@ -31,33 +33,64 @@
     position: relative;
     background-color: var(--colorCeleste);
     margin-bottom: 20px;
-    margin-left: 160px;
+    margin-left: 150px;
     border-radius: 2px;
     text-align: center;
     margin-top: 20px;
 }
 .home__main{
     background-color: var(--grisClaro);
+width: 90%;
+    display: inline;
     text-align: center;
-    
-
-}
+    }
 .home__main__section{
-    align-content: center;
+align-content: center;
 }
+.home__main__section--banner{margin: 0px 0px 20px 0px;}
 .home__main__section--titulares{
     font-family: var(--tipografia);
     font-size: 24px;
 }
-.home__main__section__article
+.home__main__section__article{
+
+margin-bottom: 10px;
+   margin: 10px;
+   
+}
+.home__main__section--imgProduct{
+width: 100%;
+    padding: 1px 1px 1px;
+}
+.home__main__section__article--info{
+    display: none;
+    background-color: white;
+    border-top: 1px solid var(grisClaro);
+    padding: 15px;
+}
+.home__main__section__article--info i{
+    border: 1px solid var(--colorVerde);
+    border-radius: 50%;
+    color: var(--colorVerde);
+    padding: 10px;
+    
+}
+.home__main__section__article:last-child{
+margin-bottom: 0px;
+}
 .home__main__section__article--precio{
     font-size: 18px;
+    
 }
 .home__main__section__article--descuento{
     font-size: 16px;
+    color: var(--colorVerde);
 }
 .home__main__section__article--nombre{
     font-size: 16px;
+    color: var(--grisOscuro);
+    font-weight: 300;
+    padding: 20px 0 0;
 }
 .home__footer{
     font-family: var(--tipografia);
@@ -69,11 +102,40 @@
     background-color: white;
     text-align: center;
 }
+.home__footer__section{}
+.home_footer__article{}
 .home__footer--icon{
     color: var(--colorCeleste);
     size: 2em;
  margin-bottom: 10px;
 }
-.home__icon{
-    color: var(--colorAmarillo)
+@media (min-width: 361px){
+    .home__main__section__article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    .home__main__section__article--info{
+        display: block;
+    }
+    .home__header__nav{
+        display: block;
+    }
+    .burger__menu{
+        display: none;
+    }
+}
+@media (min-width: 769px){
+    .home__main__section__article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    .home__main__section__article--info{
+        display: block;
+    }
+    .home__header__nav{
+        display: block;
+    }
+    .burger__menu{
+        display: none;
+    }
 }

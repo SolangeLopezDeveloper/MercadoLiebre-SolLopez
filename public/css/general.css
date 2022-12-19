@@ -4,7 +4,8 @@
 body{
     font-family: var(--tipografia), sans-serif;
     font-size: 12px;
-    padding: 0px 3px;
+    padding: 0px px;
+    background-color: var(--grisClaro);
 }
 a{
     text-decoration: none;

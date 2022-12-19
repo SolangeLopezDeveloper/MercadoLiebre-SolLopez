@@ -1,10 +1,10 @@
 :root {
-    --tipografia: 'Roboto';
+    --tipografia:
+    'Roboto';
     --colorAmarillo : #EAC926;
     --colorAzul : #03264C;
     --colorCeleste : #1259c3;
     --grisOscuro: #666;
     --grisClaro: #ebebeb;
-    --colorVerde : #39b54a;
-
+    --colorVerde: #39b54a;
 }
