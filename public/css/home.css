@@ -59,7 +59,7 @@ flex-wrap: wrap;
     padding: 10px;
     display: none;
 }
-.home__header__burgermenu{
+.home__header__burger{
    
     justify-content: center;
     color: white;
@@ -74,14 +74,6 @@ flex-wrap: wrap;
     margin-top: 20px;
     align-content: center;
     flex-wrap: wrap;
-}
-
-.home__main{
-    background-color: var(--grisClaro);
-    width: 90%;
-    display: inline;
-    }
-.home__main__section{
 }
 .home__main__section--banner{
     margin: 0px 0px 20px 0px;}
@@ -175,44 +167,47 @@ width: 100%;
     .home__header--titulo{
         width: 30%;
     }
+    .home__header__nav{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 60px;
+    }
+    .home__header__nav--menuVenta{
+        width: 60%;
+        display: flex;
+        gap: 10px;
+        padding: 0 40px 0 0;
+        justify-content: flex-start;
+    }
+    .home__header__nav--menuLogin{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        justify-content: flex-end;
+        /* padding: 0 0 0 0px; */
+    }
+    .home__header__burger{
+        display: none;
+    }
     .home__main__section__article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         display: inline-block;
         width: 40%;
 }
-    .home__main__section--imgProduct{
-
-    }
     .home__main__section__article--info{
     display: block;
     }
-    .home__header__nav{
-        display: flex;
-        flex-wrap: wrap;
-      
-    
-    }
-    .home__header__nav--menuVenta{
-        width: 50%;
-        display: flex;
-        gap: 30px;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding: 0 60px 0 60px;
-    }
-    .home__header__nav--menuLogin{
-        display: flex;
-        width: 50%;
-        gap: 30px;
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding: 0 0 0 100px;
-    }
-    .home__header__burguermenu{
-        display: none;
-    }
 }
 @media (min-width: 769px){
+    .home__header{
+        display: flex;
+    }
+    .home__logo{
+        width: 20%;
+    }
+    .home__header--searchbox{
+        width: 30%;
+    }
     .home__main__section__article{
       display: inline-block;
       flex-wrap: wrap;
@@ -242,7 +237,14 @@ width: 100%;
         align-items: flex-end;
         justify-content: flex-end;
     }
-    .home__header__burguermenu{
+    .home__header__nav--menuLogin{
+        width: 50%;
+    }
+    .home__header__nav--menuVenta{
+        width: 50%;
+    }
+    .home__header__burger{
         display: none;
     }
+    
 }
