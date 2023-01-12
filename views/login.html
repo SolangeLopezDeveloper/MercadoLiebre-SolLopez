@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre | Ingresá</title>
+    <script src="https://kit.fontawesome.com/95086d397a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>  <header class="home__header">
+    <a href="/"><img class="home__logo" src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
+   <div class="home__header--searchbox">
+    <input class="home__header--search" type="text" value="Buscá productos, marcas">
+   <button class="home__header--search--button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+    <p class="home__header--titulo"><a href=""><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</a></p>
+    <nav class="home__header__nav">
+        <ul class="home__header__nav--menuVenta">
+            <li><a href="/ofertas">Ofertas</a></li>
+            <li><a href="/tiendasOficiales">Tiendas Oficiales</a></li>
+            <li><a href="/vender">Vender</a></li>
+            <li><a href="/ayuda">Ayuda</a></li>
+        </ul>
+        <ul class="home__header__nav--menuLogin">
+            <li><a href="/register">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
+            <li><a href="/ingresa">Ingresa<i class="fa-solid fa-right-to-bracket"></i></a></li>
+            <li><a href="/misCompras">Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+        </ul>
+    </nav>
+    <div class="home__header__burger">
+        <i class="fas fa-bars"></i>
+    </div>
+</header>
+    <div>
+        <h1>Ingresá</h1>
+        <p>
+            <label for="name">Nombre de usuario</label>
+            <input type="text" name="name" required>
+        </p>
+        <p>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" required>
+        </p>
+        <div class="form__box--remember">
+            <input id="remember" name="remember" type="checkbox">
+            <label class="form__label" for="remember">Recuerdame</label>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </div>
+  
+    <div>
+        <small>¿No estás registrado? <a href="/register">Registrate</a></small>
+    </div>
+</body>
+
+</html>

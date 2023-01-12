@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre | Creá Tu Cuenta</title>
+    <script src="https://kit.fontawesome.com/95086d397a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header class="home__header">
+       <a href="/"><img class="home__logo" src="/images/logo-mercado-liebre.svg" alt="Logo"></a>
+       <div class="home__header--searchbox">
+        <input class="home__header--search" type="text" value="Buscá productos, marcas">
+       <button class="home__header--search--button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+        <p class="home__header--titulo"><a href=""><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</a></p>
+        <nav class="home__header__nav">
+            <ul class="home__header__nav--menuVenta">
+                <li><a href="/ofertas">Ofertas</a></li>
+                <li><a href="/tiendasOficiales">Tiendas Oficiales</a></li>
+                <li><a href="/vender">Vender</a></li>
+                <li><a href="/ayuda">Ayuda</a></li>
+            </ul>
+            <ul class="home__header__nav--menuLogin">
+                <li><a href="/register">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
+                <li><a href="/ingresa">Ingresa<i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/misCompras">Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
+            </ul>
+        </nav>
+        <div class="home__header__burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <span class="register">
+    <h1>Creá Tu Cuenta</h1>
+        <form class="register__form" action="" method="post">
+        <div class="form__box"><label for="nombre" name="nombre" id="nombre"></label>
+            <input class="form__box--name" type="text" name="nombre" placeholder="Nombre y Apellido">
+        </div>
+         <div class="form__box">
+                    <input class="form__box--email" type="email" placeholder="Email" name="email" id="name">
+                </div>
+        <div class="form__box"><label for="usuario" name="usuario" id="usuario"></label>
+            <input class="form__box--usuario"type="text" name="usuario" placeholder="Nombre de Usuario">
+        </div>
+        <div class="form__box"><label for="date" name="date" id="date">Fecha de Nacimiento</label>
+            <input class="form__box--date" type="date" name="date">
+        </div>
+        <div class="form__box"><label for="domicilio" name="domicilio" id="domicilio"></label>
+            <input class="form__box--domicilio" type="text" name="domicilio" placeholder="Domicilio">
+        </div>
+        <div class="form__box--perfil">
+        <label class="form__box--perfil-titulo" for="perfil" name="perfil" id="perfil">Perfil de Usuario</label>
+        <input class="form__box--perfil-compra" type="radio" name="perfil" value="Comprador">Comprador
+        <input class="form__box--perfil-venta" type="radio" name="perfil" value="Vendedor">Vendedor
+    </div>
+        <div class="form__box--interes" ><label for="interes">Categorías de interés</label>
+
+            <input type="checkbox" name="interes" value="Electro">Electro
+            <input type="checkbox" name="interes" value="Electro"> Moda
+            <input type="checkbox" name="interes" value="Electro">Hogar
+            <input type="checkbox" name="interes" value="Electro">Juguetería
+            <input type="checkbox" name="interes" value="Electro">Vida sana
+        </div>
+        <div>
+            <label for="image">Foto de Usuario</label>
+            <input type="file" name="image" required>
+        </div>
+        <div class="form__box">
+            <label>Contraseña:</label>
+            <input class="form__box--passw" type="password" name="password" required>
+        </div>
+        <div class="form__box">
+            <label>Repetir Contraseña:</label>
+            <input class="form__box--rep-passw" type="password" name="password" required>
+        </div>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </div>
+    <div class="form__box">
+        <small>¿Ya estás registrado? <a href="/login">Ingresá</a></small>
+    </div>
+    </form></span>
+    
+</body>
+
+</html>

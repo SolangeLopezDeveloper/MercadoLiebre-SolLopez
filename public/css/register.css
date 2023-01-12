@@ -1,0 +1,52 @@
+.register{
+    font-family: var(--tipografia);
+    
+    width: 90%;
+    border: none;
+    
+}
+.register h1{
+   
+}
+.register__form{
+    display: flex;
+    /* width: 100%; */
+    background-color: var(--grisClaro);
+    font-family: var(--tipografia);
+    border-radius: 1px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+.form__box{display: flex;width: 100%;justify-content: center;border: transparent;border-radius: 1px;}
+.register__form, .form__box--name, .form__box--email, .form__box--usuario,.form__box--date,.form__box--domicilio,.form__box--passw, .form__box--rep-passw{
+    border: none; 
+    border-radius: 3px;
+    width: 100%;
+}
+.form__box--perfil{
+    
+gap: 25px;
+    
+display: flex;
+    
+flex-wrap: wrap;
+}
+.form__box--perfil-titulo{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+}
+.form__box--perfil-compra{}
+.form__box--perfil-venta{
+    justify-content: center;
+
+}
+.form__box--interes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+    flex-direction: column;
+}
