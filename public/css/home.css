@@ -75,6 +75,12 @@ flex-wrap: wrap;
     align-content: center;
     flex-wrap: wrap;
 }
+.home__main__section{
+    
+display: flex;
+    
+flex-wrap: wrap;
+}
 .home__main__section--banner{
     margin: 0px 0px 20px 0px;}
 .home__main__section--titulares{
@@ -86,28 +92,53 @@ flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .home__main__section__article{
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     }
 .home__main__section--imgProduct{
 width: 100%;
     padding: 1px 1px 1px;
 }
 .home__main__section__article--info{
-    display: none;
+    display: flex;
+    width: 100%;
+    text-align-last: center;
+    position: relative;
+}
+.home__main__section__article--info h3{
+   display: none;
     background-color: white;
-    border-top: 1px solid var(grisClaro);
+    border-top: 1px solid var(--grisClaro);
     padding: 15px;
     flex-wrap: wrap;
     position: relative;
     align-items: center;
     width: 100%;
-
-    
 }
+
+/* 
+ .home__main__section__article--info h3{
+   color: var(--grisOscuro);
+    font-weight:300px;
+  height: 0;
+   margin:0;
+   width: 100%;
+   transition: all 1s;
+   overflow:hidden;  }*/
+
+
+/* .home__main__section__article--info:hover{
+height: 50px;
+margin-top: 30px;
+}  
+.home__main__section__article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);  
+} */
+
 .home__main__section__article--info i{
     display: block;
     font-size: 16px;
@@ -120,11 +151,14 @@ width: 100%;
     position: absolute;
     right: 20px;
     top: -15px;
-    color: #39b54a;
-
-    
+    color: var(--colorVerde);
+  /*   transition: 1s; */
 }
+/* .home__main__section__article--info i:hover{
+    transform: rotate(-90deg);
+} */
 .home__main__section__article--precio{
+    position: relative;
      width: 30%;
     font-size: 18px;  
 }
@@ -134,13 +168,13 @@ width: 100%;
     color: var(--colorVerde);
 }
 .home__main__section__article--nombre{
-width: 100%;
+    background-color: #FFF;
+    width: 100%;
     font-size: 16px;
-    color: var(--grisOscuro);
     font-weight: 300;
-    padding: 20px 0 0;
+    padding: 20px 0 20px;
     text-align: left;
-  
+    margin: 0;
 }
 .home__footer{
     font-family: var(--tipografia);
@@ -190,12 +224,46 @@ width: 100%;
         display: none;
     }
     .home__main__section__article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        display: inline-block;
-        width: 40%;
+display: flex;
+width: 50%;  
+flex-wrap: wrap;    
+margin: 0;    
+flex-direction: row;    
+position: relative;
 }
-    .home__main__section__article--info{
-    display: block;
+.home__main__section__article--info{
+    color: var(--grisOscuro);
+    display: flex;
+    font-weight: 300;
+    margin: 0px;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    }
+    .home__main__section__article--info h3{
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+  /*   .home__main__section__article--info:hover{
+   height: 50px;
+   margin-top: 30px;
+    } */
+    .home__main__section__article--info i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border:1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        color: var(--colorVerde);
+      /*   transition: 1s; */
     }
 }
 @media (min-width: 769px){
@@ -216,10 +284,14 @@ width: 100%;
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
       }
     .home__main__section__article--info{
+        
      position: relative;
     }
-    .home__main__section__article--info i{
+    .home__main__section__article--info h3{
         display: block;
+    }
+    .home__main__section__article--info i{
+        display: flex;
         font-size: 16px;
         padding: 5px;
         width: 30px;
