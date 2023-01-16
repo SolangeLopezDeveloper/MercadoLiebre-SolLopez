@@ -40,6 +40,7 @@
 .home__header--titulo{
     font-family: var(--tipografia);
      font-size: 12px;
+   
 }
 .home__header__nav{
     display: none;
@@ -97,24 +98,24 @@ width: 100%;
     width: 100%;
 }
 
-/* 
- .home__main__section__article--info h3{
+ 
+ .home__main__section__article--info h4{
    color: var(--grisOscuro);
     font-weight:300px;
   height: 0;
    margin:0;
    width: 100%;
    transition: all 1s;
-   overflow:hidden;  }*/
+   overflow:hidden;  }
 
 
-/* .home__main__section__article--info:hover{
+.home__main__section__article--info:hover h4{
 height: 50px;
 margin-top: 30px;
 }  
 .home__main__section__article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);  
-} */
+} 
 
 .home__main__section__article--info i{
     display: block;
@@ -129,11 +130,11 @@ margin-top: 30px;
     right: 20px;
     top: -15px;
     color: var(--colorVerde);
-  /*   transition: 1s; */
+    transition: 1s;
 }
-/* .home__main__section__article--info i:hover{
+.home__main__section__article--info i:hover{
     transform: rotate(-90deg);
-} */
+}
 .home__main__section__article--precio{
      width: 10%;
      font-size: 18px;
@@ -144,15 +145,16 @@ margin-top: 30px;
     color: var(--colorVerde);
     text-align: end;
 }
-.home__main__section__article--nombre{
-    display: none;
+/* .home__main__section__article--nombre{
 width: 100%;
     font-size: 16px;
     font-weight: 300;
     padding: 20px 0 20px;
     text-align: left;
     margin: 0;
-}
+    height: 0px;
+    transition: all 1s;
+} */
 .home__footer{
     font-family: var(--tipografia);
     margin-top: 2px;
