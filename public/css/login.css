@@ -98,3 +98,25 @@
 .login__boxform div{
     margin-bottom: 10px;
 }
+@media (min-width: 361px) {
+    .login__header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .login__logo{
+        width: 30%;
+    }
+    .login__header--searchbox{
+        width: 50%;
+    }
+    .login__header__nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .login__header--titulo{
+        width: 80%;
+    }
+    .login__header__burger{
+        display: none;
+    }
+}
