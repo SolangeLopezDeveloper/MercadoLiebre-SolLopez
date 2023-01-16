@@ -1,0 +1,100 @@
+.login__header, .login__boxform{
+    font-family: var(--tipografia);
+}
+.login__header__infoPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+}
+.login__header{
+    background-color: var(--colorAmarillo);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.login__logo{
+  margin: 10px;
+  width: 40%;
+}
+.login__header--searchbox{
+    width: 50%;
+    position: relative;
+    padding: 0px;
+}
+.login__header--searchbox input{
+    width: 100%;
+    padding: 8px 32px 8px 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFF;
+}
+.login__header--search--button{
+    font-family: var(--tipografia), sans-serif;
+    font-size: 20px;
+    top: 4px;
+    right: 4px;
+    color: var(--grisOscuro);
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid var(--grisOscuro);
+    padding: 0 4px;
+}
+.login__header--titulo{
+    font-family: var(--tipografia);
+     font-size: 12px;
+}
+.login__header__nav{
+    display: none;
+}
+.login__header__burger{
+    justify-content: center;
+    color: white;
+    width: 20px;
+    height: 15px;
+    position: relative;
+    background-color: var(--colorCeleste);
+    margin-bottom: 20px;
+    margin-left: 150px;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.login__boxform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    background-color: var(--grisClaro);
+    border-radius: 5px;
+}
+.login__ingreso{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.login__ingreso_textbox{
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+}
+.login__ingreso_buttonEnv, .login__ingreso_buttonBorr{
+    background-color: var(--colorCeleste);
+    border-radius: 5px;
+    width: 80%;
+    border: none;
+    color: #FFF;
+    padding: 5px 5px;
+    margin: 2px;
+    font-family: var(--tipografia);
+   
+}
+.login__boxform div{
+    margin-bottom: 10px;
+}
